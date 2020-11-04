@@ -15,7 +15,7 @@ export const heroData = {
   lastName: 'Dhakal',
   subtitle: (
     <h1 className="hero-title">
-      I'm the fullstack <span style={{ color: '#eece1a' }}>Developer</span>.
+      I'm a fullstack <span style={{ color: '#eece1a' }}>Developer</span>.
     </h1>
   ),
   cta: '',
@@ -70,7 +70,7 @@ export const projectsData = [
     img: 'contact.jpeg',
     title: (
       <h3>
-        Contact <span style={{ color: 'blue' }}>Application</span>
+        Contact <span style={{ color: '#003699' }}>Application</span>
       </h3>
     ),
     info: (
@@ -91,7 +91,7 @@ export const projectsData = [
         This project is the updated version of my previous
         <a target="_blank" rel="noopener noreferrer" href="https://contactentry.herokuapp.com/">
           {' '}
-          <span style={{ color: 'blue' }}>Phonebook</span>
+          <span style={{ color: '#003699' }}>Phonebook</span>
         </a>{' '}
         project where the saved number is public so this version have implemented.
       </p>
