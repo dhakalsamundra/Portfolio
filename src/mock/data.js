@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import { nanoid } from 'nanoid';
 import React from 'react';
 // HEAD DATA
@@ -10,8 +11,13 @@ export const headData = {
 // HERO DATA
 export const heroData = {
   title: 'Hi, 👋  my name is',
-  name: 'Samundra Dhakal',
-  subtitle: "I'm the fullstack Developer.",
+  firstName: 'Samundra',
+  lastName: 'Dhakal',
+  subtitle: (
+    <h1 className="hero-title">
+      I'm the fullstack <span style={{ color: '#eece1a' }}>Developer</span>.
+    </h1>
+  ),
   cta: '',
 };
 
@@ -21,7 +27,7 @@ export const aboutData = {
   paragraphOne:
     'Ambitious and highly driven fullStack developer discovering varying stacks of software development.',
   paragraphTwo:
-    ' Skill set of TypeScript, React, React Native, Redux, ContextAPI, Material-UI, Materialize in frontend, Node, Express, MongoDB, Postgress, MySQL in backend & database with Docker, Bash Scripting & AWS in Devops side with the C, C++, Java of intermediate knowledge & practise.',
+    ' Skill set of TypeScript, React, React Native, GraphQL, Redux, ContextAPI, Material-UI, Materialize in frontend, Node, Express, MongoDB, Postgress, MySQL in backend & database with Docker, Bash Scripting & AWS in Devops side with the C, C++, Java of intermediate knowledge & practise.',
 };
 
 // PROJECTS DATA
@@ -88,10 +94,6 @@ export const projectsData = [
           <span style={{ color: 'blue' }}>Phonebook</span>
         </a>{' '}
         project where the saved number is public so this version have implemented.
-        <br />
-        to fetch the user data and other stuffs too. To access all the user data from github Api,
-        one should need to make a authentication from github and use the clientId and client secret
-        of github in the project.
       </p>
     ),
     url: 'https://contact-dir-app.herokuapp.com/',
@@ -184,7 +186,8 @@ export const projectsData = [
     ),
     info2: (
       <p>
-        Application where there are 2 type of login one as a admin and another as a user. User can borrow and unborrow the book where admin have all access of CRUD operation of the book.
+        Application where there are 2 type of login one as a admin and another as a user. User can
+        borrow and unborrow the book where admin have all access of CRUD operation of the book.
       </p>
     ),
     url: 'https://findergithub-user.netlify.app/',
@@ -196,7 +199,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'dhakalsamundra35@gmail.com',
 };
 
 // FOOTER DATA
@@ -204,28 +207,13 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
-    {
-      id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/samundra-dhakal-85b176163/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/dhakalsamundra',
     },
   ],
-};
-
-// Github start/fork buttons
-export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
 };
