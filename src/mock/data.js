@@ -15,7 +15,7 @@ export const heroData = {
   lastName: 'Dhakal',
   subtitle: (
     <h1 className="hero-title">
-      I'm a fullstack <span style={{ color: '#eece1a' }}>Developer</span>.
+      I'm a fullstack <span style={{ color: '#e0bf3d' }}>Developer</span>.
     </h1>
   ),
   cta: '',
