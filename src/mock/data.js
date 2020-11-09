@@ -15,7 +15,7 @@ export const heroData = {
   lastName: 'Dhakal',
   subtitle: (
     <h1 className="hero-title">
-      I'm a fullstack <span style={{ color: '#e0bf3d' }}>Developer</span>.
+      I'm a fullstack <span style={{ color: '#eece1a' }}>Developer</span>.
     </h1>
   ),
   cta: '',
@@ -75,8 +75,8 @@ export const projectsData = [
     ),
     info: (
       <p>
-        React application project which purpose is to save the people contact number. This project
-        use following stacks:
+        React application project, implemented to save the people contact number. This project use
+        following stacks:
         <li>React</li>
         <li>Node & Express</li>
         <li>Sendgrid</li>
@@ -93,7 +93,7 @@ export const projectsData = [
           {' '}
           <span style={{ color: '#003699' }}>Phonebook</span>
         </a>{' '}
-        project where the saved number is public so this version have implemented.
+        project where the saved number is public.
       </p>
     ),
     url: 'https://contact-dir-app.herokuapp.com/',
@@ -109,14 +109,14 @@ export const projectsData = [
     ),
     info: (
       <p>
-        Ongoing project where one can chat with other users and project use following stacks:
+        Project where one can chat with other users where project completed with following stacks:
         <li>React & Apollo Client</li>
         <li>React Bootstrap</li>
         <li>Nodejs with Apollo Server</li>
         <li>Sequelize ORM</li>
         <li>Authentication & Authorization</li>
         <li>Web Socket</li>
-        Project use web socket, Subscription for real time data transmission for exchanging the
+        Project use web socket,(Subscription), for real time data transmission for exchanging the
         message as well as reacting the message which also use the react bootstrap for wrapping the
         bootstrap in react. For the database section relational database with MYSQL and apollo
         framework in server side with Authorization and authentication has been implemented along
