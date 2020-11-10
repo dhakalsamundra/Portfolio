@@ -27,7 +27,7 @@ export const aboutData = {
   paragraphOne:
     'Ambitious and highly driven fullStack developer discovering varying stacks of software development.',
   paragraphTwo:
-    ' Skill set of TypeScript, React, React Native, GraphQL, Redux, ContextAPI, Material-UI, Materialize in frontend, Node, Express, MongoDB, Postgress, MySQL in backend & database with Docker, Bash Scripting & AWS in Devops side with the C, C++, Java with intermediate knowledge & practise.',
+    ' Skill set of TypeScript, React, React Native, GraphQL, Redux, ContextAPI, Material-UI, Materialize in frontend, Node, Express, MongoDB, Postgress, MySQL in backend & database with Docker, Bash Scripting & AWS in Devops side with the intermediate knowledge on Java, C & C++.',
 };
 
 // PROJECTS DATA
