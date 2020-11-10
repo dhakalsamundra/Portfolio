@@ -57,9 +57,9 @@ export const projectsData = [
           <span style={{ color: 'blue' }}>RestAPI</span>
         </a>
         <br />
-        to fetch the user data and other stuffs too. To access all the user data from github Api,
-        one should need to make a authentication from github and use the clientId and client secret
-        of github in the project.
+        to fetch the user data. To access all the user data from github Api, one should need to make
+        a authentication from github and use the clientId and client secret of github in the
+        project.
       </p>
     ),
     url: 'https://findergithub-user.netlify.app/',
