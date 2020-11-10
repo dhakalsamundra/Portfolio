@@ -27,7 +27,7 @@ export const aboutData = {
   paragraphOne:
     'Ambitious and highly driven fullStack developer discovering varying stacks of software development.',
   paragraphTwo:
-    ' Skill set of TypeScript, React, React Native, GraphQL, Redux, ContextAPI, Material-UI, Materialize in frontend, Node, Express, MongoDB, Postgress, MySQL in backend & database with Docker, Bash Scripting & AWS in Devops side with the C, C++, Java of intermediate knowledge & practise.',
+    ' Skill set of TypeScript, React, React Native, GraphQL, Redux, ContextAPI, Material-UI, Materialize in frontend, Node, Express, MongoDB, Postgress, MySQL in backend & database with Docker, Bash Scripting & AWS in Devops side with the C, C++, Java with intermediate knowledge & practise.',
 };
 
 // PROJECTS DATA
@@ -190,8 +190,7 @@ export const projectsData = [
         borrow and unborrow the book where admin have all access of CRUD operation of the book.
       </p>
     ),
-    url: 'https://findergithub-user.netlify.app/',
-    repo: 'https://github.com/dhakalsamundra/Github-Finder', // if no repo, the button will not show up
+    repo: 'https://github.com/dhakalsamundra/Library', // if no repo, the button will not show up
   },
 ];
 
