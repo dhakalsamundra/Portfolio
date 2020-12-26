@@ -84,6 +84,7 @@ export const projectsData = [
         <li>Context API</li>
         <li>MongoDB</li>
         <li>Authentication & Authorization</li>
+        <li>E2E Testing with Cypress</li>
       </p>
     ),
     info2: (
@@ -93,7 +94,7 @@ export const projectsData = [
           {' '}
           <span style={{ color: '#003699' }}>Phonebook</span>
         </a>{' '}
-        project where the saved number is public.
+        project where the saved number is public and simple CI/CD has been implemented.
       </p>
     ),
     url: 'https://contact-dir-app.herokuapp.com/',
